@@ -61,10 +61,10 @@ const Index = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="text-lg px-8">
+            <Button variant="alive" size="lg" className="text-lg px-8">
               Explore My Projects
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8">
+            <Button variant="shimmer" size="lg" className="text-lg px-8">
               Get in Touch
             </Button>
           </div>
@@ -179,11 +179,11 @@ const Index = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" className="text-lg px-8">
+            <Button variant="bounce" size="lg" className="text-lg px-8">
               <Mail className="mr-2 h-5 w-5" />
               Send Message
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8">
+            <Button variant="outline" size="lg" className="text-lg px-8 hover:border-primary hover:text-primary">
               Download Resume
             </Button>
           </div>
