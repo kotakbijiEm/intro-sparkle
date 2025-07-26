@@ -356,12 +356,12 @@ const About = lazy(() => import('./pages/About'));
 ```mermaid
 graph LR
     A[Current Page] --> B[Preload Critical Routes]
-    B --> C[/projects on hover]
-    B --> D[/contact on scroll]
-    
+    B --> C[Example: /projects on hover]
+    B --> D[Example: /contact on scroll]
+
     E[User Intent] --> F[Predictive Loading]
-    F --> G[Faster Navigation]
-    
+    F --> G[Benefit: Faster Navigation]
+
     style A fill:#e1f5fe
     style G fill:#e8f5e8
 ```
