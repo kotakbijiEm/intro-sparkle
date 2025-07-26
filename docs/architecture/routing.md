@@ -6,20 +6,20 @@ This document outlines the routing structure, navigation patterns, and URL manag
 
 ```mermaid
 graph TB
-    A[App Root] --> B[Browser Router]
-    B --> C[Header Navigation]
-    B --> D[Route Definitions]
-    
-    D --> E[/ - Home/Index]
-    D --> F[/projects - Projects]
-    D --> G[/blog - Blog]
-    D --> H[/about - About]
-    D --> I[/contact - Contact]
-    D --> J[/* - Not Found]
-    
+    A[App Root] --> B[BrowserRouter]
+    B --> C[Layout Component]
+    C --> D[Header Navigation]
+    C --> E[Routes]
+    E --> F["Route <br/> Path: / <br/> Element: Home"]
+    E --> G["Route <br/> Path: /projects <br/> Element: Projects"]
+    E --> H["Route <br/> Path: /blog <br/> Element: Blog"]
+    E --> I["Route <br/> Path: /about <br/> Element: About"]
+    E --> J["Route <br/> Path: /contact <br/> Element: Contact"]
+    E --> K["Route <br/> Path: * <br/> Element: NotFound"]
+
     style A fill:#e1f5fe
-    style E fill:#e8f5e8
-    style J fill:#ffebee
+    style F fill:#e8f5e8
+    style K fill:#ffebee
 ```
 
 ## 📋 Route Configuration
