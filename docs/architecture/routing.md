@@ -255,11 +255,11 @@ graph TD
     A[Clean URLs] --> B[No Hash Routing]
     A --> C[Descriptive Paths]
     A --> D[SEO Friendly]
-    
-    B --> E[/projects vs /#/projects]
-    C --> F[/about vs /page1]
-    D --> G[Keywords in URLs]
-    
+
+    B --> E[Example: /projects vs /#/projects]
+    C --> F[Example: /about vs /page1]
+    D --> G[Benefit: Keywords in URLs]
+
     style A fill:#e1f5fe
     style E fill:#e8f5e8
     style F fill:#e8f5e8
